@@ -606,3 +606,170 @@
 [2021-Apr-12 20:17] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
 [2021-Apr-12 20:18] 127.0.0.1 POST https /register? 200 OK
 [2021-Apr-12 20:18] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:11] 127.0.0.1 GET https /? 200 OK
+[2021-Apr-12 05:11] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:11] 127.0.0.1 GET https /? 200 OK
+[2021-Apr-12 05:11] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:11] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:11] 127.0.0.1 GET https /favicon.ico? 404 NOT FOUND
+[2021-Apr-12 05:11] 127.0.0.1 GET https /register? 200 OK
+[2021-Apr-12 05:11] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:11] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:13] 127.0.0.1 POST https /register? 500 INTERNAL SERVER ERROR
+[2021-Apr-12 05:13] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:13] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:13] 127.0.0.1 GET https /register? 200 OK
+[2021-Apr-12 05:13] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:13] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:14] 127.0.0.1 GET https /register? 200 OK
+[2021-Apr-12 05:14] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:14] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:14] 127.0.0.1 POST https /register? 500 INTERNAL SERVER ERROR
+[2021-Apr-12 05:14] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:14] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:15] 127.0.0.1 GET https /register? 200 OK
+[2021-Apr-12 05:15] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:15] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:16] 127.0.0.1 POST https /register? 500 INTERNAL SERVER ERROR
+[2021-Apr-12 05:16] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:16] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:17] 127.0.0.1 GET https /register? 200 OK
+[2021-Apr-12 05:17] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:17] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:17] 127.0.0.1 POST https /register? 200 OK
+[2021-Apr-12 05:17] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:17] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:17] 127.0.0.1 POST https /register? 200 OK
+[2021-Apr-12 05:17] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:17] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:19] 127.0.0.1 POST https /register? 302 FOUND
+[2021-Apr-12 05:19] 127.0.0.1 GET https /dashboard? 200 OK
+[2021-Apr-12 05:19] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:19] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:19] 127.0.0.1 POST https /dashboard? 200 OK
+[2021-Apr-12 05:19] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:19] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:19] 127.0.0.1 GET https /logout? 302 FOUND
+[2021-Apr-12 05:19] 127.0.0.1 GET https /? 200 OK
+[2021-Apr-12 05:19] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:19] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:19] 127.0.0.1 GET https /login? 200 OK
+[2021-Apr-12 05:19] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:20] 127.0.0.1 POST https /login? 302 FOUND
+[2021-Apr-12 05:20] 127.0.0.1 GET https /checkmfa? 200 OK
+[2021-Apr-12 05:20] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:20] 127.0.0.1 POST https /checkmfa? 302 FOUND
+[2021-Apr-12 05:20] 127.0.0.1 GET https /dashboard? 200 OK
+[2021-Apr-12 05:20] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:20] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:20] 127.0.0.1 GET https /logout? 302 FOUND
+[2021-Apr-12 05:20] 127.0.0.1 GET https /? 200 OK
+[2021-Apr-12 05:20] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:20] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:20] 127.0.0.1 GET https /login? 200 OK
+[2021-Apr-12 05:20] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:20] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:20] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:20] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:22] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:22] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:22] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:22] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:22] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:22] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 POST https /login? 400 BAD REQUEST
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:25] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:26] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:26] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:26] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:26] 127.0.0.1 GET https /register? 200 OK
+[2021-Apr-12 05:26] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:26] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:27] 127.0.0.1 POST https /register? 200 OK
+[2021-Apr-12 05:27] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:27] 127.0.0.1 POST https /register? 200 OK
+[2021-Apr-12 05:27] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:27] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 POST https /register? 302 FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /dashboard? 200 OK
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 POST https /dashboard? 200 OK
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /logout? 302 FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /? 200 OK
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /login? 200 OK
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /forgotPassword? 200 OK
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 POST https /forgotPassword? 200 OK
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:28] 127.0.0.1 GET https /resetPassword?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXNldF9wYXNzd29yZCI6InRlc3Q4OSIsImV4cCI6MTYxODIzMDgwMC44NDE0Nzh9.tzJMPbvWWhE7rCv2MvwzgsXVwYpPJYP8IvK2m9fzLzE 200 OK
+[2021-Apr-12 05:28] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:29] 127.0.0.1 POST https /resetPassword?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJyZXNldF9wYXNzd29yZCI6InRlc3Q4OSIsImV4cCI6MTYxODIzMDgwMC44NDE0Nzh9.tzJMPbvWWhE7rCv2MvwzgsXVwYpPJYP8IvK2m9fzLzE 302 FOUND
+[2021-Apr-12 05:29] 127.0.0.1 GET https /dashboard? 200 OK
+[2021-Apr-12 05:29] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:29] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:29] 127.0.0.1 POST https /dashboard? 200 OK
+[2021-Apr-12 05:29] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:29] 127.0.0.1 GET https /logout? 302 FOUND
+[2021-Apr-12 05:29] 127.0.0.1 GET https /? 200 OK
+[2021-Apr-12 05:29] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:29] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:29] 127.0.0.1 GET https /login? 200 OK
+[2021-Apr-12 05:29] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:29] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:30] 127.0.0.1 POST https /login? 200 OK
+[2021-Apr-12 05:30] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:30] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:30] 127.0.0.1 POST https /login? 302 FOUND
+[2021-Apr-12 05:30] 127.0.0.1 GET https /dashboard? 200 OK
+[2021-Apr-12 05:30] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:30] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:30] 127.0.0.1 GET https /logout? 302 FOUND
+[2021-Apr-12 05:30] 127.0.0.1 GET https /? 200 OK
+[2021-Apr-12 05:30] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:30] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:30] 127.0.0.1 GET https /register? 200 OK
+[2021-Apr-12 05:30] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:31] 127.0.0.1 POST https /register? 302 FOUND
+[2021-Apr-12 05:31] 127.0.0.1 GET https /dashboard? 200 OK
+[2021-Apr-12 05:31] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:31] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /logout? 302 FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /? 200 OK
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /login? 200 OK
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /register? 200 OK
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 POST https /register? 302 FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /dashboard? 200 OK
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /logout? 302 FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /? 200 OK
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND
+[2021-Apr-12 05:32] 127.0.0.1 GET https /assets/main.css? 404 NOT FOUND

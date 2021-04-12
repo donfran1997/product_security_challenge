@@ -232,7 +232,7 @@ def login():
 
         #validate if captcha is done
         if not check_captcha(g_recaptcha):
-            error += '<br>CAPTCHA was not selected'
+            error += 'CAPTCHA was not selected'
             flash(error)
             return render_template('index.html', sitekey=current_app.config["RECAPTCHA_SITE_KEY"])
 
@@ -252,12 +252,13 @@ def login():
                     return redirect(url_for('user.signedin'))
             else:
                 error += 'Username or Password is incorrect'
+                flash(error)
+                return render_template("index.html", sitekey=current_app.config["RECAPTCHA_SITE_KEY"])
         else:
-            if error != '':
-                error += 'Username or Password is incorrect'
+            error += 'Username or Password is incorrect'
 
-            # show the application user the vague message
-            flash(error)
+        # show the application user the vague message
+        flash(error)
 
     # Create a captcha for rate limiting purposes on all login forms
     return render_template("index.html", sitekey=current_app.config["RECAPTCHA_SITE_KEY"])

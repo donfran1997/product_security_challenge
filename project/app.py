@@ -9,8 +9,7 @@ import uuid
 app = create_app()
 # secret here is used to generate CSRF token along with session token
 # I have no idea of the key so the attacker must not as well :D
-secret_key = str(uuid.uuid4())
-
+app.secret_key = str(uuid.uuid4())
 
 if __name__ == '__main__':
 	# Runs with ssl uses self-signed cert in the real world you would like to buy a trusted
