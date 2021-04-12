@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+</head>
+
+<body>
+    <app-root></app-root>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #f3f2f1">
+        <a class="navbar-brand" href="/">Zendesk</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+            <ul class="nav navbar-nav navbar-right">
+                {% if current_user.is_authenticated %}
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{ url_for('user.logout') }}">Logout</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item active">
+                        <a class="nav-link" href="{{ url_for('user.register') }}">Register</a>
+                    </li>
+                    <li>
+                        <a class="nav-link active" href="{{ url_for('user.login') }}">Login</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+
+    </nav>
+</body>
+
+<article id="container">
+    {% block body %}
+        //Other HTML content will be displayed here so the navbar will always be present
+    {% endblock %}
+
+</html>

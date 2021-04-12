@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<body>
+    <div class="login-form">
+        <form action="" method="post" autocomplete="off">
+            <h2 class="text-center">Register</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" name="username"  placeholder="Username" required="required">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" name="email" placeholder="Email" required="required">
+            </div>
+            <div class="form-group" style="margin-left: 2%">
+                <p>Password must contain:</p>
+                <p> - 1 lowercase character</p>
+                <p> - 1 uppercase character</p>
+                <p> - 1 special character</p>
+                <p> - 1 number</p>
+                <p> - minimum of 12 characters</p>
+                <p> - maximum of 48 characters</p>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="cpassword" placeholder="Confirm Password" required="required">
+            </div>
+            <div class="g-recaptcha" name="recaptcha" data-sitekey="{{ sitekey }}"></div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+            </div>
+        </form>
+        {% for f in get_flashed_messages() %}
+            <div class="alert alert-dismissible alert-danger"
+                 style="width: 80%; margin-left: auto; margin-right: auto; margin-top: 20px;">
+                <button type="button" class="close" data-dismiss="alert">&times;</button>
+                {{ f|safe }}
+            </div>
+        {% endfor %}
+    </div>
+</body>
+
+{% endblock %}
