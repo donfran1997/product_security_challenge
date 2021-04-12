@@ -1,32 +1,13 @@
-# Zendesk Product Security
-### The Zendesk Product Security Challenge
+# How to run the app!
+1. Navigate to /projects
+2. Run run.sh either by sh run.sh
+3. Navigate to https://127.0.0.1:5000
+4. Create out an account by pressing on the "Register" item in the navbar
 
-Hello friend,
+Feel free to comment out the pip3 line in run.sh for app runs after that.
 
-We are super excited that you want to be part of the Product Security team at Zendesk.
+Ensure that it is 127.0.0.1 as Google's recaptcha was implemented for that host. 
 
-**To get started, you need to fork this repository to your own Github profile and work off that copy.**
+python3.6 was tested for this project both on Windows 10 WSL and Unbuntu 20.04 so python3-pip is needed.
 
-In this repository, there are the following files:
-1. README.md - this file
-2. project/ - the folder containing all the files that you require to get started
-3. project/index.html - the main HTML file containing the login form
-4. project/assets/ - the folder containing supporting assets such as images, JavaScript files, Cascading Style Sheets, etc. You shouldn’t need to make any changes to these but you are free to do so if you feel it might help your submission
-
-As part of the challenge, you need to implement an authentication mechanism with as many of the following features as possible. It is a non exhaustive list, so feel free to add or remove any of it as deemed necessary.
-
-1. Input sanitization and validation
-2. Password hashed
-3. Prevention of timing attacks
-4. Logging
-5. CSRF prevention
-6. Multi factor authentication
-7. Password reset / forget password mechanism
-8. Account lockout
-9. Cookie
-10. HTTPS
-11. Known password check
-
-You will have to create a simple binary (platform of your choice) to provide any server side functionality you may require. Please document steps to run the application. Your submission should be a link to your Github repository which you've already forked earlier together with the source code and binaries.
-
-Thank you!
+Tools I used to test my own app burp suit to make sure I can see what is happening in each request and bruteforcing, WireShark to check if SSL/TLS is in placed, sqlmap to test for sql injection, webhooks to see if possible for blind xss or ssrf and manual ssti testing as jinja is being used.
